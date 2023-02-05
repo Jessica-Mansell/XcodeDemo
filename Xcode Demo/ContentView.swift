@@ -12,7 +12,8 @@ struct ContentView: View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
-                .foregroundColor(.accentColor)
+                .foregroundColor(.teal)
+                .hoverEffect(/*@START_MENU_TOKEN@*/.automatic/*@END_MENU_TOKEN@*/)
             Text("Hello, world!")
         }
         .padding()
